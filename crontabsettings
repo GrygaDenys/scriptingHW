@@ -1,2 +1,2 @@
-#crontab settings for 3 script (dircounter)
+#crontab settings for 3 script (dircounter.sh)
 * * * * * /home/gryga/Desktop/dircounter.sh > /home/gryga/Desktop/results
