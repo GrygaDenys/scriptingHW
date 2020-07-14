@@ -13,6 +13,5 @@ do
 cp -R /home/gryga/$var /home/gryga/backup/
 done
 
-echo $1
 lines="* * * * * /home/gryga/Desktop/$1"
 echo "$lines" | crontab -u root -
